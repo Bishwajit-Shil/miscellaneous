@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js</title>
+	
+  
+  <!---------------------CSS------------------------------>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+</head>
+<body>
+      <div class="container">
+  <div id="header">
+    <h3> Calculator</h3></div>
+    <!--<input type="text" id="out">--->
+    <div id="calc" class="text-center">
+
+      <div id="display">
+      <input type="text" id="input">
+      <input type="text" id="result">
+      </div>
+
+        <div id="keyboard">
+          <div class="row">
+            <button class="btn btn-info butt" value="7">7</button>
+            <button class="btn btn-info butt" value="8">8</button>
+            <button class="btn btn-info butt" value="9">9</button>
+            <button class="btn btn-danger" id=clear value="ac">AC</button>
+            <button class="btn btn-danger" id=ce value="ce">CE</button>
+          </div>
+          <div class="row">
+            <button class="btn btn-info butt" value="4">4</button>
+            <button class="btn btn-info butt" value="5">5</button>
+            <button class="btn btn-info butt" value="6">6</button>
+            <button class="btn btn-warning butt" value="/">/</button>
+            <button class="btn btn-warning butt" value="*">*</button>
+          </div>
+          <div class="row row3">
+            <button class="btn btn-info butt" value="1">1</button>
+            <button class="btn btn-info butt" value="2">2</button>
+            <button class="btn btn-info butt" value="3">3</button>
+            <button class="btn btn-warning butt" value="+">+</button>
+            <button class="btn btn-warning butt" value="-">-</button>
+            
+          </div>
+          <div class="row last-row">
+            <button class="btn btn-info btn-zero butt" value="0">0</button>
+            <button class="btn btn-warning butt" value=".">.</button>
+            <button class="btn btn-warning butt" value="%">%</button>
+            <button class="btn btn-success btn-result" id="calcu" value="=">=</button>
+            
+          </div>
+      </div>
+  </div>
+</div>
+
+    <!------------------jQuery-------------------------->
+  <script src="js/jquery.js"></script>
+  <script src="js/coustom.js"></script>
+</body>
+</html>

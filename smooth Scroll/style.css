@@ -1,0 +1,13 @@
+.footer{
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	width:150px;
+	background: black;
+
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+
+}
